@@ -114,7 +114,7 @@ public class EcommerceApplication
 		public static void main(String[] args) {
 			run();
 			UserService userService = new UserServiceImp(DB.connectDb());
-			String token = "moonlight@gmail.com";
+			String token = "shyam123@gmail.com";
 			int userId=3;
 			int makeUserAsAdmin = userService.makeUserAsAdmin(token, userId);
 			System.out.println(makeUserAsAdmin);
